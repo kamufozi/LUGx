@@ -8,34 +8,40 @@
     <link rel="stylesheet" href="tailwind.css">
 </head>
 <body>
-    <header class="grid grid-cols-2 grid-rows-2 bg-cover bg-center bg-no-repeat h-64 items-center text-white" style="background-image: url(/images/banner-bg.jpg);">
+    <header class="grid grid-cols-2 grid-rows-2 p-3 m-3 rounded-b-md bg-cover bg-center bg-no-repeat h-auto items-center text-white" style="background-image: url(/images/banner-bg.jpg);">
         <!-- Left: Logo -->
         <div class="flex items-center pl-4">
-            <img class="h-16" src="/images/logo.png" alt="Logo">
+            <img class="h-16 mt-0 " src="/images/logo.png" alt="Logo">
         </div>
     
         <!-- Right: Buttons -->
         <div class="flex justify-end items-center gap-4 pr-4">
 
-            <button class="bg-transparent text-black border border-transparent px-4 py-2 rounded hover:border-white hover:bg-opacity-30 transition">
+            <button class="bg-transparent text-white border border-transparent px-4 py-2 rounded-lg hover:border-blue-200 hover:bg-opacity-55 transition">
                 Home
             </button>
-            <button class="bg-transparent text-black border border-transparent px-4 py-2 rounded hover:border-white hover:bg-opacity-30 transition">
+            <button class="bg-transparent text-white border border-transparent px-4 py-2 rounded hover:border-blue-500 hover:bg-opacity-30 transition">
                 Our Shop
             </button>
-            <button class="bg-transparent text-black border border-transparent px-4 py-2 rounded hover:border-white hover:bg-opacity-30 transition">
+            <button class="bg-transparent text-white border border-transparent px-4 py-2 rounded hover:border-blue-500 hover:bg-opacity-30 transition">
                 Product Details
             </button>
-            <button class="bg-transparent text-black border border-transparent px-4 py-2 rounded hover:border-white hover:bg-opacity-30 transition">
+            <button class="bg-transparent text-white border border-transparent px-4 py-2 rounded hover:border-blue-500 hover:bg-opacity-30 transition">
                 Contact Us
             </button>
             <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-700 transition">
                 Sign In
             </button>
         </div>
-        <div class="">
-            <h3 class="">Welcome to LUGx</h3>
-            <h1 class="">Best Gaming site Ever</h1>
+        <div class="grid grid-cols-2">
+            <div>
+            <h3 class="text-xl">Welcome to LUGx</h3><br />
+            <h1 class="text-5xl">Best Gaming site Ever! <span><img src="/images/caption-dec.png" alt="little line below"></span></h1>
+            <p>LUGX Gaming is free bootstrrap 5 HTML CSS website template for your gaming websites. You can download and use this layout for commercial purposes. Please tell your friends about TemplateMO.</p>
+        </div>
+            <div class="">
+                <img src="/images/banner-image.jpg" alt="badman">
+            </div>
         </div>
     </header>
     <main>
