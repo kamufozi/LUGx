@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="desperate">clicka aha </button>
+    <div id="for-love">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </div>
+    <i></i>
+</body>
+<script>
+    let butt=document.getElementById('desperate');
+    let li=document.getElementById('for-love');
+    butt.addEventListener('click',function(){
+        li.lastElementChild.remove();
+    }) 
+    document.addEventListener('mousemove', function (e) {
+  const red = Math.min(255, Math.floor(e.clientX / window.innerWidth * 255));
+  const green = Math.min(255, Math.floor(e.clientY / window.innerHeight * 255));
+  const blue = 255; // Fixed blue value
+
+  document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+});
+
+</script>
+</html>
